@@ -1,9 +1,11 @@
+package src.chapter01_fundamentals.exercices;
+
 import java.util.Scanner;
 
 
 public class StudentGradeCalculator {
     public static void main(String[] args){
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in); // 1. create a scanner object to read input from the user
 
         System.out.println("enter your Name: ");
         String name = scanner.nextLine();
